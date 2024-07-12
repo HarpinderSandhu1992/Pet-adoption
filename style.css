@@ -1,0 +1,49 @@
+/* select all table & th & td elements and apply styling rules */
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 1em;
+}
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 1em;
+}
+thead {
+  background-color: papayawhip;
+}
+tr:hover {
+  background-color: aqua;
+}
+img {
+  border-radius: 5px;
+}
+table caption {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 1em;
+  caption-side: top;
+}
+ul {
+  list-style-type: none;
+}
+a:hover {
+  background-color: blanchedalmond;
+}
+form {
+  width: 20%;
+  margin: 20px;
+  background-color: lightblue;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 1px black;
+  text-align: center;
+}
+body {
+  background-color: burlywood;
+}
+form div {
+  margin-bottom: 10px;
+}
